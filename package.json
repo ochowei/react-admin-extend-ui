@@ -10,8 +10,12 @@
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
   "scripts": {
-    "build": "rollup -c",
-    "lint": "eslint ."
+    "build-lib": "rollup -c",
+    "lint": "eslint .",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "author": "Ochowei",
   "license": "MIT",
@@ -47,7 +51,15 @@
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-typescript2": "^0.29.0",
     "ts-jest": "^26.5.0",
-    "typescript": "^4.0.5"
+    "typescript": "^4.0.5",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "prop-types": "^15.8.1",
+    "ra-data-json-server": "^3.19.7",
+    "react-admin-extend-ui": "^1.2.3",
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.0"
   },
   "peerDependencies": {
     "react": "*",
@@ -56,5 +68,23 @@
   },
   "dependencies": {
     "react-json-view": "^1.21.3"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
