@@ -10,7 +10,7 @@
   "module": "build/index.es.js",
   "jsnext:main": "build/index.es.js",
   "scripts": {
-    "build-lib": "rollup -c",
+    "build-package": "rollup -c",
     "lint": "eslint .",
     "start": "react-scripts start",
     "build": "react-scripts build",
