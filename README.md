@@ -1,4 +1,4 @@
-# React Admin JSON view ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ochowei/react-admin-json-view) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ochowei/react-admin-json-view/Node.js%20CI)
+# React Admin JSON view ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ochowei/react-admin-extend-ui) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ochowei/react-admin-extend-ui/Node.js%20CI)
 
 JSON field and input for [react-admin](https://github.com/marmelab/react-admin).
 Built with [react-json-view](https://github.com/mac-s-g/react-json-view).
