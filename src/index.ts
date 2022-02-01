@@ -1,4 +1,3 @@
-import { JsonField } from "./JsonField";
-import { JsonInput } from "./JsonInput";
+import { IntegerInput } from "./IntegerInput";
 
-export { JsonField, JsonInput };
+export { IntegerInput };
