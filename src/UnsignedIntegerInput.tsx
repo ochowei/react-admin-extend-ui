@@ -1,7 +1,7 @@
 import React from "react";
 
 import { NumberInput } from "react-admin";
-const IntegerInput = (props: any) => {
+const UnsignedIntegerInput = (props: any) => {
   return (
     <NumberInput
       parse={(value: string) => {
@@ -17,4 +17,4 @@ const IntegerInput = (props: any) => {
     />
   );
 };
-export { IntegerInput };
+export { UnsignedIntegerInput };
