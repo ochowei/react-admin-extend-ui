@@ -13,6 +13,7 @@ import {
 } from "react-admin";
 import jsonServerProvider from "ra-data-json-server";
 import { IntegerInput } from "./IntegerInput";
+import { PositiveIntegerInput } from "./PositiveIntegerInput";
 
 const dataProvider = jsonServerProvider("https://jsonplaceholder.typicode.com");
 const PostCreate = (props) => (
@@ -24,7 +25,7 @@ const PostCreate = (props) => (
       </ReferenceInput>
       <TextInput source="title" />
       <TextInput multiline source="body" />
-      <IntegerInput source="example2" />
+      <PositiveIntegerInput source="example2" />
     </SimpleForm>
   </Create>
 );

@@ -1,3 +1,5 @@
 import { IntegerInput } from "./IntegerInput";
 import { UnsignedIntegerInput } from "./UnsignedIntegerInput";
-export { IntegerInput, UnsignedIntegerInput };
+import { PositiveIntegerInput } from "./PositiveIntegerInput";
+
+export { IntegerInput, UnsignedIntegerInput, PositiveIntegerInput };
