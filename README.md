@@ -1,4 +1,4 @@
-# React Admin JSON view ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ochowei/react-admin-extend-ui/Node.js%20CI)
+# React Admin Extend UI ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/ochowei/react-admin-extend-ui/Node.js%20CI)
 
 Some extend UI for [react-admin](https://github.com/marmelab/react-admin).
 
