@@ -5,7 +5,6 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js
@@ -13,6 +12,7 @@ jobs:
         with:
           node-version: "14.x"
           always-auth: true
+          registry-url: 'https://registry.npmjs.org'
       - run: yarn
       - run: yarn lint
       - run: yarn build-package
